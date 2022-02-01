@@ -34,6 +34,9 @@ java {
 }
 
 dependencies {
+    // Tech Easy Solutions
+    api "${project.group}:tes-spring-boot-rest-exceptions:${project.property('tes-spring-boot-rest-exceptions.version')}"
+
     // Lombok
     compileOnly "org.projectlombok:lombok:${project.property('lombok.version')}"
     annotationProcessor "org.projectlombok:lombok:${project.property('lombok.version')}"
